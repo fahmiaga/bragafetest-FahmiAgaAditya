@@ -1,4 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-button {
+  @apply flex text-white my-3 px-2 py-3 rounded-md cursor-pointer hover:bg-white hover:text-primary;
+}
+
+/* .icon-sidebar{
+  color: blueviolet;
+} */
+.icon-sidebar:hover *{
+  fill: red;
+}
 body {
+  background-color: #fdfbfb;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
